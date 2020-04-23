@@ -1,9 +1,9 @@
 packages:
-  schematics_package:
+  SoftLayer_package:
     version: 1.0
     license: Apache-2.0
     actions:
-      schematics-apply:
+      getLocations:
         version: 1.0
         description: Json output of IBM Cloud PoPs and Datacenters
         docker: khayama/ibmcloud-cli
