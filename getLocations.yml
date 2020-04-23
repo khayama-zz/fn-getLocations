@@ -1,0 +1,12 @@
+packages:
+  schematics_package:
+    version: 1.0
+    license: Apache-2.0
+    actions:
+      schematics-apply:
+        version: 1.0
+        description: Json output of IBM Cloud PoPs and Datacenters
+        docker: khayama/ibmcloud-cli
+        function: getLocations.sh
+        inputs:
+          IBMCLOUD_API_KEY: $IBMCLOUD_API_KEY
