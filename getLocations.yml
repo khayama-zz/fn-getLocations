@@ -10,3 +10,4 @@ packages:
         function: getLocations.sh
         inputs:
           IBMCLOUD_API_KEY: $IBMCLOUD_API_KEY
+        web: true
